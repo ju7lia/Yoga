@@ -1,0 +1,206 @@
+@media screen and (max-width: 1030px) {
+
+.um {
+    max-width: 850px;
+    margin: 100px 30px;
+}
+.presentation h1 {
+    font-size: 44px;
+    margin: 0;
+}
+.presentation h2 {
+    font-size: 34px;
+}
+.manager {
+    max-width: 550px;
+}
+.p_dec {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 890px) {
+    
+.config_plans {
+  min-width: 150px;
+  max-height: 430px;
+  padding: 25px;
+}
+.config_plans ul {
+    margin: 5px 0;
+}
+.config_plans a {
+    display: none;
+}
+.p_dec {
+    display: none;
+}
+.quatro {
+    max-width: 700px;
+}
+.classes {
+    align-items: center;
+}
+.classes img {
+   display: none;
+}
+.aulas {
+    max-width: 200px;
+    max-height: 180px;   
+}
+.quinta {
+    max-width: 500px;
+    margin: 150px auto;
+}
+.teachers {
+  flex-direction: column;
+}
+.teach {
+    padding: 10px;
+    margin: 15px 20px;
+    background-color: #f2efcc;
+}
+.teach h3 {
+    color: rgb(172,145,136);
+}
+.titulo_5 h1{
+    font-size: 20px;
+}
+.titulo_5 h2 {
+    font-size: 26px;
+}
+.teach img {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+}
+.teach h3{
+    margin-top: 5px;
+   text-align: center;
+}
+.teach p {
+    text-align: center;
+}
+.form {
+    width: 500px ;
+    height: 350px;
+    background-color: #b0d4b86b;
+}
+form input {
+    width: 100%;
+    border-radius: 20px;
+    border: hidden;
+    padding: 4px;
+    margin: 8px auto;
+}
+.sub {
+    padding: 2px;
+    margin: 0;
+    width: 100px;
+    font-size: 16px;
+}
+form {
+    width: 70%;
+    padding: 10px;
+}
+form textarea {
+    resize: none;
+}
+.t_form {
+    color: #b0d4b8;
+    padding: 10px;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.t_form p {
+  display: none;
+}
+.margin {
+    margin: 20px 30px;
+}
+#menu_header {
+    justify-content: end;
+    margin: 20px;
+}
+#menu_header li {
+    margin: 0 10px;
+}
+
+}
+
+@media  screen and (max-width: 720px) {
+    
+.margin {
+    margin: 20px 15px;
+    justify-content: start;
+}
+#menu_header {
+    display: none;
+}
+.manager, .manager_2 {
+    display: none;
+}
+.presentation {
+    align-self: center;
+    max-width: 330px;
+    margin: auto;
+}
+.about {
+    max-width: 340px;
+    align-items: flex-end;
+    text-align: end;
+    padding: 0 10px;
+}
+.plans {
+    flex-direction: column;
+}
+.config_plans {
+    max-width: 250px;
+    margin-bottom: 10px;
+    background-color: rgba(43, 40, 56, 0.438);
+}
+.quatro {
+    margin-bottom: 100px;
+}
+.about_class {
+    align-self:  center;
+}
+.classes {
+    flex-direction: column;
+}
+.quinta {
+    display: none;
+    max-width: 310px;
+}
+.teach h3 {
+    font-size: 18px;
+    color: rgb(172,145,136);
+}
+.teach p {
+    font-size: 16px;
+}
+.form {
+    background-color: rgba(43, 40, 56, 0.438);
+    width: 300px ;
+    height: 350px;
+}
+.config_plans a {
+    display: flex;
+}
+.button_t {
+    margin-top: 30px;
+}
+.plan h1{
+    font-size: 28px;
+    color: rgba(43, 40, 56, 0.438);
+    margin-bottom: 6px;
+}
+.plan h2 {
+    font-size: 20px;
+}
+.plans h3, span {
+    color: #b0d4b8;
+}
+
+}
